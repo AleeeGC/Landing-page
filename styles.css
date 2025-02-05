@@ -26,6 +26,10 @@ h1 {
     margin: 0;
 }
 
+#main-subtext {
+    margin: 5px auto 40px;
+}
+
 #right-nav {
     width: 40%;
     display: flex;
@@ -42,6 +46,7 @@ main {
     gap: 20px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 #placeholder-img {
