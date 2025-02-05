@@ -23,12 +23,12 @@
             <p>This website has some subtext that goes here under the main title</p>
             <button id="sign-up-button">Sign up</button>
         </div>
-        <img src="https://agoop.co.jp/wp-content/uploads/2023/12/placeholder.png" width="40%" height="60%">
+        <img id="placeholder-img" src="https://agoop.co.jp/wp-content/uploads/2023/12/placeholder.png" width="40%" height="60%">
     </main>
 
     <section id="random-info">
         <h2>Some random information</h2>
-        <div>
+        <div id="subtext-containers">
             <div class="info-container">
                 <div class="info-image"></div>
                 <p>This is some subtext under an illustration or image</p>
@@ -48,23 +48,25 @@
         </div>
     </section>
 
-    <section>
+    <section id="quote">
         <blockquote>
             This is an inspiring quote, or a testimonial from a customer.
             Maybe it's just filling up space, or maybe people will actually read it. 
             Who knows? All I know is that it looks nice.
         </blockquote>
-        <p>-Thor, God of Thunder</p>
+        <p id="quote-author">-Thor, God of Thunder</p>
     </section>
 
-    <section>
-        <p>Call to action! It's time!</p>
-        <p>Sign up for our product by clicking that button over there</p>
-        <button>Sign up</button>
+    <section id="action-time">
+        <div id="action-text">
+            <p id="call-to-action">Call to action! It's time!</p>
+            <p id="sign-up-text">Sign up for our product by clicking that button over there!</p>
+        </div>
+        <button id="sign-up-button">Sign up</button>
     </section>
 
     <footer>
-        <sub>Copyright The Odin Project 2021</sub>
+        <sub>Copyright Tecmooo</sub>
     </footer>
 </body>
 </html>

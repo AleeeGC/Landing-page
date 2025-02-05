@@ -5,20 +5,20 @@ body,
 ::after,
 ::before {
     margin: 0;
-    padding: 0 6vw;
+    padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", serif;
-    background-color: #1F2937;
 }
 
 #navigation {
+    padding: 0 6vw;
+    background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-flow: row nowrap;
     height: 40px;
-    margin: 0;
 }
 
 h1 {
@@ -35,11 +35,17 @@ h1 {
 }
 
 main {
+    height: 400px;
+    background-color: #1F2937;
+    padding: 0 6vw;
     color: #F9FAF8;
     gap: 20px;
     display: flex;
     align-items: center;
-    margin-top: 30px;
+}
+
+#placeholder-img {
+    object-fit: contain;
 }
 
 #sign-up-button {
@@ -52,5 +58,99 @@ main {
 }
 
 #random-info {
+    padding: 0 6vw;
+    margin: 100px 0;
+}
 
+h2 {
+    text-align: center;
+    font: 900 36px "Roboto";
+    color: #1F2937
+}
+
+#subtext-containers {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.info-container {
+    height: auto;
+
+}
+
+.info-image {
+    height: 15vw;
+    width: 15vw;
+    border: #3882F6 solid 2px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.info-image + p {
+    width: 15vw;
+    text-align: center;
+    font: 250 14px "Roboto";
+    text-wrap: wrap pretty;
+}
+
+#quote {
+    padding: 20px 12vw;
+    margin: 100px 0 50px;
+    background-color: #E5E7EB;
+}
+
+blockquote {
+    font: 200 30px "Roboto";
+    font-style: italic;
+    color: #1F2937;
+}
+
+#quote-author {
+    text-align: end;
+    margin-right: 40px;
+}
+
+#action-time {
+    height: 120px;
+    margin: 70px 15vw;
+    padding: 0 100px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+#action-text {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+#call-to-action {
+    font: bold 25px "Roboto";
+    margin: 0;
+}
+
+#sign-up-text {
+    margin: 2px 0;
+    font: 200 13px "Roboto";
+}
+
+#sign-up-button {
+    border: solid 2px white;
+    min-width: 100px;
+}
+
+footer {
+    background-color: #1F2937;
+    height: 50px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
 }
